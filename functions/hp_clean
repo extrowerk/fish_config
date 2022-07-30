@@ -1,0 +1,4 @@
+function hp_clean {
+	find /Ports/haikuports -type d -name "work-*" -exec rm -rf "{}" \;
+	find /Ports/haikuports -type d -name "download" -exec rm -rf "{}" \;
+	end
